@@ -165,6 +165,7 @@ function App() {
                           <button
                             onClick={() => handleReserve("Lugar 1")}
                             aria-label="Reservar lugar 1"
+                            aria-describedby="tooltip-lugar-1"
                             aria-haspopup="dialog"
                             aria-expanded="false"
                             role="button"
@@ -289,6 +290,7 @@ function App() {
                           <button
                             onClick={() => handleReserve("Lugar 10")}
                             aria-label="Reservar lugar 10"
+                            aria-describedby="tooltip-lugar-10"
                             aria-haspopup="dialog"
                             aria-expanded="false"
                             role="button"
